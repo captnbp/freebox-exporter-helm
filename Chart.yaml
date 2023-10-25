@@ -1,0 +1,30 @@
+annotations:
+  category: Analytics
+  licenses: Apache-2.0
+  images: |
+    - name: freebox-exporter
+      image: docker.io/captnbp/freebox-exporter:1.0.0-r1
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+- name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  tags:
+  - bitnami-common
+  version: 2.x.x
+description: freebox-exporter is a simple Prometheus exporter for the Freebox 
+home: https://github.com/captnbp/freebox-exporter-helm
+icon: https://dev.freebox.fr/bugs//logo_f.png
+keywords:
+- prometheus
+- freebox-exporter
+- monitoring
+maintainers:
+  - name: captnbp
+    url: https://lab.frogg.it/doca/freebox-exporter-helm
+name: freebox-exporter
+sources:
+- https://github.com/captnbp/freebox-exporter-helm
+- https://lab.frogg.it/doca/freebox-exporter-helm
+- https://github.com/trazfr/freebox-exporter
+version: 1.0.0

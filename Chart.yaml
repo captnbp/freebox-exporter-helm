@@ -25,6 +25,6 @@ maintainers:
 name: freebox-exporter
 sources:
 - https://github.com/captnbp/freebox-exporter-helm
-- https://lab.frogg.it/doca/freebox-exporter-helm
+- https://lab.frogg.it/captnbp/freebox-exporter-helm
 - https://github.com/trazfr/freebox-exporter
 version: 1.0.0

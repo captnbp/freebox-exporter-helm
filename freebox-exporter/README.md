@@ -4,7 +4,7 @@
 
 freebox-exporter is a simple Prometheus exporter for the Freebox.
 
-[Overview of freebox-exporter](https://github.com/kubernetes/freebox-exporter)
+[Overview of freebox-exporter](https://github.com/trazfr/freebox-exporter)
 
 Trademarks: This software listing is packaged. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
 

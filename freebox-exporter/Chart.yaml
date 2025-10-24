@@ -3,9 +3,9 @@ annotations:
   licenses: Apache-2.0
   images: |
     - name: freebox-exporter
-      image: docker.io/captnbp/freebox-exporter:1.0.0-r1
+      image: docker.io/captnbp/freebox-exporter:1.0.1-r1
 apiVersion: v2
-appVersion: 1.0.0
+appVersion: 1.0.1
 dependencies:
 - name: common
   repository: oci://registry-1.docker.io/bitnamicharts
@@ -27,4 +27,4 @@ sources:
 - https://github.com/captnbp/freebox-exporter-helm
 - https://lab.frogg.it/doca/freebox-exporter-helm
 - https://github.com/trazfr/freebox-exporter
-version: 1.0.0
+version: 1.0.1
